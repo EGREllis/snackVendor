@@ -9,4 +9,9 @@ public class WebMapping {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/register.html")
+    public String register() {
+        return "register";
+    }
 }
