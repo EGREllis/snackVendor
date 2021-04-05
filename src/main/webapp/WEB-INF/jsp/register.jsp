@@ -40,7 +40,7 @@
         <jsp:include page="bootstrap_fixed_header.jsp" />
         <main role="main">
             <section class="container text-center">
-                <form class="form" method="POST" onsubmit="return validateForm()">
+                <form class="form" method="POST" onsubmit="return validateForm()" action="submit_register.html">
                     <h1 class="h3 mb-3 font-weight-normal">Registration:</h1>
                     <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                     <input type="email" id="confirmEmail" name="confirmEmail" class="form-control" placeholder="Confirm email" required>
